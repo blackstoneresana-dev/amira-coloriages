@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Bénin, en couleurs — Amiraafaitlepoulet</title>
+<meta name="description" content="La version en couleurs du livret de coloriage Amiraafaitlepoulet : un modèle pour chacun des 14 dessins.">
+<meta name="robots" content="noindex">
+<style>
+/* Page statique : aucun script, aucun cookie, aucune ressource tierce (plan version coloriée, § 4). */
+@font-face {
+  font-family: "Shrikhand";            /* Google Fonts, licence SIL OFL 1.1, hébergée ici (sous-ensemble latin) */
+  src: url("police/shrikhand-latin.woff2") format("woff2");
+  font-display: swap;
+}
+:root {
+  --fond: #FBF6EE;
+  --carte: #FFFFFF;
+  --encre: #1B1712;
+  --doux: #6B6157;
+  --orange: #E57152;                   /* orange du logo */
+  --filet: #EADFD0;
+  --titre: "Shrikhand", Georgia, serif;
+  --texte: Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { background: var(--fond); color: var(--encre); font: 17px/1.55 var(--texte); -webkit-text-size-adjust: 100%; }
+.cadre { max-width: 600px; margin: 0 auto; padding: 0 16px; }
+
+header { text-align: center; padding: 36px 0 8px; }
+header .logo { width: 200px; height: auto; display: block; margin: 0 auto 22px; mix-blend-mode: multiply; }
+h1 { font: 400 30px/1.15 var(--titre); text-wrap: balance; }
+h1 .orange { color: var(--orange); }
+.chapo { color: var(--doux); margin: 14px auto 0; max-width: 30em; text-wrap: balance; }
+
+nav { margin: 26px 0 6px; }
+nav ol { list-style: none; display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; }
+nav a {
+  display: grid; place-items: center; aspect-ratio: 1; border-radius: 12px;
+  background: var(--carte); border: 1px solid var(--filet); color: var(--encre);
+  font: 400 18px/1 var(--titre); text-decoration: none;
+}
+nav a:active { background: var(--orange); color: #fff; border-color: var(--orange); }
+nav p { text-align: center; color: var(--doux); font-size: 14px; margin-top: 10px; }
+
+main { padding: 18px 0 8px; }
+article { background: var(--carte); border: 1px solid var(--filet); border-radius: 18px; padding: 20px 16px 16px; margin: 0 0 22px; scroll-margin-top: 12px; }
+.repere { font-size: 13px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--doux); text-align: center; }
+h2 { font: 400 24px/1.2 var(--titre); text-align: center; margin: 6px 0 14px; text-wrap: balance; }
+article img { display: block; width: 100%; height: auto; border-radius: 8px; background: #F3EDE4; }
+.haut { display: block; text-align: right; font-size: 14px; color: var(--doux); margin-top: 10px; }
+.haut:hover { color: var(--orange); }
+
+footer { text-align: center; color: var(--doux); font-size: 15px; padding: 14px 0 44px; }
+footer strong { color: var(--encre); font-weight: 700; }
+footer a { color: var(--orange); }
+
+@media (min-width: 700px) {
+  header { padding-top: 56px; }
+  h1 { font-size: 40px; }
+  article { padding: 28px 28px 20px; }
+}
+</style>
+</head>
+<body>
+<div class="cadre">
+
+<header id="haut">
+  <img class="logo" src="img/logo.webp" width="480" height="173" alt="Amiraafaitlepoulet">
+  <h1>Le Bénin, <span class="orange">en couleurs</span></h1>
+  <p class="chapo">Les 14 dessins du livret, mis en couleurs. Compare avec ta page, pioche des idées… et garde les tiennes : il n'y a pas de mauvaise couleur.</p>
+</header>
+
+<nav aria-label="Aller à un dessin">
+  <ol>
+    <li><a href="#d1" aria-label="Coloriage 1, Choukouya">1</a></li>
+    <li><a href="#d2" aria-label="Coloriage 2, Bananes cuites">2</a></li>
+    <li><a href="#d3" aria-label="Coloriage 3, Jus de bissap">3</a></li>
+    <li><a href="#d4" aria-label="Coloriage 4, Caméléon">4</a></li>
+    <li><a href="#d5" aria-label="Coloriage 5, Éléphant de la Pendjari">5</a></li>
+    <li><a href="#d6" aria-label="Coloriage 6, Hippopotame">6</a></li>
+    <li><a href="#d7" aria-label="Coloriage 7, Zangbeto">7</a></li>
+    <li><a href="#d8" aria-label="Coloriage 8, Egungun">8</a></li>
+    <li><a href="#d9" aria-label="Coloriage 9, Dangbé">9</a></li>
+    <li><a href="#d10" aria-label="Coloriage 10, Amazones Agojie">10</a></li>
+    <li><a href="#d11" aria-label="Coloriage 11, Ganvié">11</a></li>
+    <li><a href="#d12" aria-label="Coloriage 12, Tentures d'Abomey">12</a></li>
+    <li><a href="#d13" aria-label="Coloriage 13, Porte du Non-Retour">13</a></li>
+    <li><a href="#d14" aria-label="Coloriage 14, Zémidjan">14</a></li>
+  </ol>
+  <p>Touche le numéro de ton coloriage.</p>
+</nav>
+
+<main>
+<article id="d1"><p class="repere">Coloriage n° 1 · page 5</p><h2>Choukouya</h2><img src="img/01-choukouya.webp" width="1000" height="1398" alt="Le choukouya en couleurs"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d2"><p class="repere">Coloriage n° 2 · page 7</p><h2>Bananes cuites</h2><img src="img/02-bananes-cuites.webp" width="1000" height="1398" alt="Les bananes cuites en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d3"><p class="repere">Coloriage n° 3 · page 9</p><h2>Jus de bissap</h2><img src="img/03-jus-de-bissap.webp" width="1000" height="1398" alt="Le jus de bissap en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d4"><p class="repere">Coloriage n° 4 · page 11</p><h2>Caméléon</h2><img src="img/04-cameleon.webp" width="1000" height="1398" alt="Le caméléon en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d5"><p class="repere">Coloriage n° 5 · page 13</p><h2>Éléphant de la Pendjari</h2><img src="img/05-elephant-pendjari.webp" width="1000" height="1398" alt="L'éléphant de la Pendjari en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d6"><p class="repere">Coloriage n° 6 · page 15</p><h2>Hippopotame</h2><img src="img/06-hippopotame.webp" width="1000" height="1398" alt="L'hippopotame en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d7"><p class="repere">Coloriage n° 7 · page 17</p><h2>Zangbeto</h2><img src="img/07-zangbeto.webp" width="1000" height="1398" alt="Le Zangbeto en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d8"><p class="repere">Coloriage n° 8 · page 19</p><h2>Egungun</h2><img src="img/08-egungun.webp" width="1000" height="1398" alt="L'Egungun en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d9"><p class="repere">Coloriage n° 9 · page 21</p><h2>Dangbé, le python du temple de Ouidah</h2><img src="img/09-dangbe-python.webp" width="1000" height="1398" alt="Dangbé, le python, en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d10"><p class="repere">Coloriage n° 10 · page 23</p><h2>Amazones Agojie</h2><img src="img/10-agojie.webp" width="1000" height="1398" alt="Les amazones Agojie en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d11"><p class="repere">Coloriage n° 11 · page 25</p><h2>Ganvié</h2><img src="img/11-ganvie.webp" width="1000" height="1398" alt="Ganvié en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d12"><p class="repere">Coloriage n° 12 · page 27</p><h2>Tentures d'Abomey</h2><img src="img/12-tentures-abomey.webp" width="1000" height="1398" alt="Les tentures d'Abomey en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d13"><p class="repere">Coloriage n° 13 · page 29</p><h2>Porte du Non-Retour</h2><img src="img/13-porte-non-retour.webp" width="1000" height="1398" alt="La Porte du Non-Retour en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="d14"><p class="repere">Coloriage n° 14 · page 31</p><h2>Zémidjan, le moto-taxi</h2><img src="img/14-zemidjan.webp" width="1000" height="1398" alt="Le zémidjan en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+</main>
+
+<footer>
+  <p><strong>Amiraafaitlepoulet</strong> · Cotonou</p>
+  <p><a href="https://www.instagram.com/amiraafaitlepoulet/" rel="noopener">@amiraafaitlepoulet</a> sur Instagram</p>
+</footer>
+
+</div>
+</body>
+</html>
