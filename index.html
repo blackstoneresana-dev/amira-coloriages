@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Le Bénin, en couleurs — Amiraafaitlepoulet</title>
-<meta name="description" content="La version en couleurs du livret de coloriage Amiraafaitlepoulet : un modèle pour chacun des 14 dessins.">
+<meta name="description" content="La version en couleurs du livret de coloriage Amiraafaitlepoulet : un modèle pour chacun des 14 dessins et la page bonus.">
 <meta name="robots" content="noindex">
 <style>
 /* Page statique : aucun script, aucun cookie, aucune ressource tierce (plan version coloriée, § 4). */
@@ -43,6 +43,8 @@ nav a {
   font: 400 18px/1 var(--titre); text-decoration: none;
 }
 nav a:active { background: var(--orange); color: #fff; border-color: var(--orange); }
+nav li.bonus { grid-column: 1 / -1; }
+nav li.bonus a { aspect-ratio: auto; padding: 12px 0; }
 nav p { text-align: center; color: var(--doux); font-size: 14px; margin-top: 10px; }
 
 main { padding: 18px 0 8px; }
@@ -70,7 +72,7 @@ footer a { color: var(--orange); }
 <header id="haut">
   <img class="logo" src="img/logo.webp" width="480" height="173" alt="Amiraafaitlepoulet">
   <h1>Le Bénin, <span class="orange">en couleurs</span></h1>
-  <p class="chapo">Les 14 dessins du livret, mis en couleurs. Compare avec ta page, pioche des idées… et garde les tiennes&nbsp;: il n'y a pas de mauvaise couleur.</p>
+  <p class="chapo">Les dessins du livret, mis en couleurs. Compare avec ta page, pioche des idées… et garde les tiennes&nbsp;: il n'y a pas de mauvaise couleur.</p>
 </header>
 
 <nav aria-label="Aller à un dessin">
@@ -89,6 +91,7 @@ footer a { color: var(--orange); }
     <li><a href="#d12" aria-label="Coloriage 12, Tentures d'Abomey">12</a></li>
     <li><a href="#d13" aria-label="Coloriage 13, Porte du Non-Retour">13</a></li>
     <li><a href="#d14" aria-label="Coloriage 14, Zémidjan">14</a></li>
+    <li class="bonus"><a href="#bonus" aria-label="Page bonus, la façade du restaurant">Page bonus</a></li>
   </ol>
   <p>Touche le numéro de ton coloriage.</p>
 </nav>
@@ -108,6 +111,7 @@ footer a { color: var(--orange); }
 <article id="d12"><p class="repere">Coloriage n° 12 · page 27</p><h2>Tentures d'Abomey</h2><img src="img/12-tentures-abomey.webp" width="1000" height="1398" alt="Les tentures d'Abomey en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
 <article id="d13"><p class="repere">Coloriage n° 13 · page 29</p><h2>Porte du Non-Retour</h2><img src="img/13-porte-non-retour.webp" width="1000" height="1398" alt="La Porte du Non-Retour en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
 <article id="d14"><p class="repere">Coloriage n° 14 · page 31</p><h2>Zémidjan, le moto-taxi</h2><img src="img/14-zemidjan.webp" width="1000" height="1398" alt="Le zémidjan en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
+<article id="bonus"><p class="repere">Page bonus · page 33</p><h2>La façade du restaurant</h2><img src="img/15-bonus-facade.webp" width="1000" height="1398" alt="La façade du restaurant Amiraafaitlepoulet en couleurs" loading="lazy"><a class="haut" href="#haut">↑ Tous les dessins</a></article>
 </main>
 
 <footer>
